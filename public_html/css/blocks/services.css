@@ -1,0 +1,11 @@
+.services {
+  margin-bottom: 65px;
+}
+
+.services__item {
+  margin-bottom: 48px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
+}
