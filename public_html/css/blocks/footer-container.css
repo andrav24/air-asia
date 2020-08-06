@@ -1,0 +1,12 @@
+.footer-container__section {
+  height: 92px;
+}
+
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-container__content {
+  border-top: 1px solid rgba(255, 255, 255, .1);
+  padding-bottom: 50px;
+}
