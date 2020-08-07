@@ -1,14 +1,17 @@
 .btn {
   margin-right: auto;
   padding: 18px 40px;
-  color: #ffffff;
-  background: #F5170E;
+  color: #000;
+  background: transparent;
   border-radius: 35px;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.42;
   text-decoration: none;
   text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -25,4 +28,18 @@
 .btn--color-white:hover {
   color: #F2F2F2;
   background: #F5170E;
+}
+
+.btn--color--red {
+  color: #fff;
+  background: #F5170E;
+}
+
+.btn--color--grey {
+  color: #ffffff;
+  background: #8E8E8E;
+}
+
+.btn--color--grey:hover {
+  background: #2B2B2B;
 }
